@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f9f6f6;
+    min-height: 100vh;
+    
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size:2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 230px;
+    
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.navigation a:hover,.navigation a.active
+{
+    background: #359381;
+    color: #f9f9f9;
+}
+.weather{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position:absolute;
+    font-size: 5em;
+    color: rgb(64, 62, 62);
+    text-shadow:2px 2px 4px rgba(0,0,0,.2);
+    
+}
+
+
+
+
+
+.weather img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    background:#003329;
+    padding: 100px;
+    
+}
+
+.sec h2{
+font-size: 3em;
+color: #fff;
+margin-bottom: 10px;
+
+}
+.sec p{
+    font-size: 1em;
+    color: #fff;
+    font-weight:300;
+}
+
+ 
+  .left-side {
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .right-side {
+    width: 40%;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .icon-location {
+    background-image: url("location.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .icon-email {
+    background-image: url("mail.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .icon-phone {
+    background-image: url("mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  .container {
+    background-color: #333
+    
+  }
+  .container{
+    color: #060606;
+  }
+ 
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+    button {
+      background-color: #359381;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  .weather-info {
+    margin-top:0px;
+    font-size:xx-large;
+    align-items: center;
+    color: #ece6e6;
+    text-shadow: #060606;
+    
+
+}
+h2 {
+  font-size: 24px;
+}
+html{
+  scroll-behavior: smooth;
+}
